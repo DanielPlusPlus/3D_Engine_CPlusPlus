@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="OpenGL" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/OpenGL" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/OpenGL" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-std=gnu++17" />
+			<Add option="-fexceptions" />
+			<Add directory="E:/Programy/freeglut/include" />
+			<Add directory="E:/Programy/glm" />
+			<Add directory="E:/Programy/stb-master" />
+		</Compiler>
+		<Linker>
+			<Add library="freeglut" />
+			<Add library="opengl32" />
+			<Add library="glu32" />
+			<Add directory="E:/Programy/freeglut/lib/x64" />
+		</Linker>
+		<Unit filename="BitmapHandler.cpp" />
+		<Unit filename="BitmapHandler.h" />
+		<Unit filename="Cube3D.cpp" />
+		<Unit filename="Cube3D.h" />
+		<Unit filename="Engine.cpp" />
+		<Unit filename="Engine.h" />
+		<Unit filename="EngineStart.cpp" />
+		<Unit filename="FanStrip3D.cpp" />
+		<Unit filename="FanStrip3D.h" />
+		<Unit filename="Freeglutobjects.cpp" />
+		<Unit filename="Freeglutobjects.h" />
+		<Unit filename="GameObject.cpp" />
+		<Unit filename="GameObject.h" />
+		<Unit filename="Keyboard.cpp" />
+		<Unit filename="Keyboard.h" />
+		<Unit filename="Light.cpp" />
+		<Unit filename="Light.h" />
+		<Unit filename="Line3D.cpp" />
+		<Unit filename="Line3D.h" />
+		<Unit filename="Lines3D.cpp" />
+		<Unit filename="Lines3D.h" />
+		<Unit filename="Mouse.cpp" />
+		<Unit filename="Mouse.h" />
+		<Unit filename="OpenGL.cbp" />
+		<Unit filename="Point3D.cpp" />
+		<Unit filename="Point3D.h" />
+		<Unit filename="Quad3D.cpp" />
+		<Unit filename="Quad3D.h" />
+		<Unit filename="RenderableObject.cpp" />
+		<Unit filename="RenderableObject.h" />
+		<Unit filename="Spectator.cpp" />
+		<Unit filename="Spectator.h" />
+		<Unit filename="TexturableObjects.cpp" />
+		<Unit filename="TexturableObjects.h" />
+		<Unit filename="TransformableObject.cpp" />
+		<Unit filename="TransformableObject.h" />
+		<Unit filename="Triangle3D.cpp" />
+		<Unit filename="Triangle3D.h" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
